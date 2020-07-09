@@ -1,0 +1,90 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fov": 90.0,
+  "elements": [
+    {
+      "Sphere" : {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -5.0
+        },
+        "radius": 1.0,
+        "color": {
+          "red": 0.2,
+          "green": 1.0,
+          "blue": 0.2
+        },
+        "albedo": 0.18
+      }
+    },
+    {
+      "Sphere" : {
+        "center": {
+          "x": -3.0,
+          "y": 1.0,
+          "z": -4.0
+        },
+        "radius": 1.0,
+        "color": {
+          "red": 0.9,
+          "green": 0.9,
+          "blue": 1.0
+        },
+        "albedo": 0.58
+      }
+    },
+    {
+      "Sphere": {
+        "center": {
+          "x": 3.0,
+          "y": 0.5,
+          "z": -5.0
+        },
+        "radius": 1.25,
+        "color": {
+          "red": 1.0,
+          "green": 0.2,
+          "blue": 0.5
+        },
+        "albedo": 0.08
+      }
+    },
+    {
+      "Plane": {
+        "origin": {
+          "x": -2.0,
+          "y": -2.0,
+          "z": -5.0
+        },
+        "normal": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "color": {
+          "red": 0.8,
+          "green": 0.8,
+          "blue": 0.8
+        },
+        "albedo": 0.18
+      }
+    }
+  ],
+  "light": {
+    "direction": {
+      "x": -1.25,
+      "y": -1.0,
+      "z": -5.0
+    },
+    "color": {
+      "red": 1.0,
+      "green": 1.0,
+      "blue": 1.0
+    },
+    "intensity": 20.0
+  }
+}
+
+
