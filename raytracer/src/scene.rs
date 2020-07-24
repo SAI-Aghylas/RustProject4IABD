@@ -118,7 +118,6 @@ pub struct Intersection<'a> {
     pub distance: f64,
     pub element: &'a Element,
 
-    
     _secret: (),
 }
 impl<'a> Intersection<'a> {

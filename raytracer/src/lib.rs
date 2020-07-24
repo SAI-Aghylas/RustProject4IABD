@@ -54,8 +54,6 @@ pub fn render(scene: &Scene) -> DynamicImage {
         })
         .collect();
 
-    
-
     for i in 0..scene.width {
         for j in 0..scene.height {
             image.put_pixel(i, j, rows[i as usize][j as usize]);
